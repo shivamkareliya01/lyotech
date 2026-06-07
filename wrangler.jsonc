@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lyotech",
+  "compatibility_date": "2026-06-07",
+  "observability": {
+    "enabled": true
+  },
+  "main": "dist/server/index.mjs",
+  "assets": {
+    "directory": "dist/client"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
